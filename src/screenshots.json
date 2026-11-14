@@ -1,0 +1,39 @@
+{
+  "en": [
+    {
+      "title": "*Unlimited* workouts to choose *from*",
+      "subtitle": "Simple by default, customizable if you need it",
+      "screenshot": "test-screenshot.jpg"
+    },
+    {
+      "title": "*Powerful* workout editor",
+      "subtitle": "Build any interval structure you can imagine",
+      "screenshot": "test-screenshot.jpg",
+      "screenshot2": "test-screenshot.jpg"
+    }
+  ],
+  "de": [
+    {
+      "title": "*Unendlich viele* Workouts zur Auswahl",
+      "subtitle": "Standardmäßig einfach, anpassbar wenn nötig",
+      "screenshot": "test-screenshot.jpg"
+    },
+    {
+      "title": "*Kraftvoller* Workout-Editor",
+      "subtitle": "Erstelle jede Intervallstruktur, die du dir vorstellen kannst",
+      "screenshot": "test-screenshot.jpg"
+    }
+  ],
+  "es": [
+    {
+      "title": "Entrenamientos *ilimitados* para elegir",
+      "subtitle": "Simple por defecto, personalizable si lo necesitas",
+      "screenshot": "test-screenshot.jpg"
+    },
+    {
+      "title": "*Potente* editor de entrenamiento",
+      "subtitle": "Crea cualquier estructura de intervalos que imagines",
+      "screenshot": "test-screenshot.jpg"
+    }
+  ]
+}
