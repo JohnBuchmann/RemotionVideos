@@ -1,8 +1,10 @@
 import { Composition, Still } from "remotion";
 import { TestComposition } from "./compositions/TestComposition/TestComposition";
 import { TestComposition2 } from "./compositions/TestComposition2/TestComposition2";
-import { StoreScreenshot } from "./StoreScreenshot";
-import { Locale, SCREENSHOTS } from "./screenshots";
+import { StoreScreenshot } from "./screenshots/StoreScreenshot";
+import { FeatureGridScreenshot } from "./screenshots/FeatureGridScreenshot";
+import { Locale, SCREENSHOTS } from "./screenshots/screenshots";
+import { FEATURE_GRID, Locale as GridLocale } from "./screenshots/featureGrid";
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -43,6 +45,19 @@ export const RemotionRoot: React.FC = () => {
           />
         )),
       )}
+      {(Object.keys(FEATURE_GRID) as GridLocale[]).map((locale) => (
+        <Still
+          key={locale}
+          id={`FeatureGrid-${locale}`}
+          component={FeatureGridScreenshot}
+          width={1080}
+          height={1920}
+          defaultProps={{
+            title: FEATURE_GRID[locale].title,
+            sections: FEATURE_GRID[locale].sections,
+          }}
+        />
+      ))}
     </>
   );
 };

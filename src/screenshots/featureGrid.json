@@ -1,0 +1,80 @@
+{
+  "en": {
+    "title": "Timers for *everyone*",
+    "sections": [
+      {
+        "heading": "*Minimalist* & *Power* Users",
+        "text": "Simple by default, deep customization if you need it",
+        "image": "featureGrid/minimalist.png"
+      },
+      {
+        "heading": "Indoor *Cyclists*",
+        "text": "With smart bike/trainer or simple stationary bike",
+        "image": "featureGrid/cyclists.png",
+        "textShift": -45
+      },
+      {
+        "heading": "*Circuit*/*EMOM* Trainers",
+        "text": "Exercise circuits & EMOMs with visual cues for what's next",
+        "image": "featureGrid/circuits.png"
+      },
+      {
+        "heading": "*YouTube* Workout Fans",
+        "text": "Curated YouTube workouts with helpful visualization blocks",
+        "image": "featureGrid/youtube.png"
+      }
+    ]
+  },
+  "de": {
+    "title": "Timer für *jeden*",
+    "sections": [
+      {
+        "heading": "*Minimalisten* & *Power*-Nutzer",
+        "text": "Standardmäßig einfach, tiefe Anpassung wenn nötig",
+        "image": "featureGrid/minimalist.png"
+      },
+      {
+        "heading": "*Indoor*-Radfahrer",
+        "text": "Mit Smart-Bike/Trainer oder einfachem Heimtrainer",
+        "image": "featureGrid/cyclists.png",
+        "textShift": -45
+      },
+      {
+        "heading": "*Circuit*/*EMOM*-Trainer",
+        "text": "Übungszirkel & EMOMs mit visuellen Hinweisen",
+        "image": "featureGrid/circuits.png"
+      },
+      {
+        "heading": "*YouTube*-Workout-Fans",
+        "text": "Kuratierte YouTube-Workouts mit hilfreichen Blöcken",
+        "image": "featureGrid/youtube.png"
+      }
+    ]
+  },
+  "es": {
+    "title": "Temporizadores para *todos*",
+    "sections": [
+      {
+        "heading": "Usuarios *minimalistas* y *avanzados*",
+        "text": "Simple por defecto, personalizable a fondo",
+        "image": "featureGrid/minimalist.png"
+      },
+      {
+        "heading": "Ciclistas de *interior*",
+        "text": "Con bicicleta inteligente/rodillo o bici estática simple",
+        "image": "featureGrid/cyclists.png",
+        "textShift": -45
+      },
+      {
+        "heading": "Entrenadores de *circuitos*/*EMOM*",
+        "text": "Circuitos y EMOMs con señales visuales de lo que sigue",
+        "image": "featureGrid/circuits.png"
+      },
+      {
+        "heading": "Entrenamientos de *YouTube*",
+        "text": "Entrenamientos de YouTube con bloques de visualización",
+        "image": "featureGrid/youtube.png"
+      }
+    ]
+  }
+}

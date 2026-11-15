@@ -4,7 +4,7 @@ import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
-const copy = JSON.parse(readFileSync(join(root, "src/screenshots.json"), "utf8"));
+const copy = JSON.parse(readFileSync(join(root, "src/screenshots/screenshots.json"), "utf8"));
 
 for (const [locale, screenshots] of Object.entries(copy)) {
   const outDir = join(root, "out/screenshots", locale);

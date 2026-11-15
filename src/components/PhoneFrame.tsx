@@ -26,10 +26,10 @@ export const PhoneFrame: React.FC<Props> = ({
         width,
         height,
         borderRadius: outerRadius,
-        backgroundColor: "#1a1a1e",
-        border: "2px solid #3a3a40",
+        backgroundColor: "#6b6b75",
+        border: "2px solid #8a8a94",
         boxShadow:
-          "0 30px 80px rgba(0, 0, 0, 0.5), inset 0 0 0 2px rgba(255, 255, 255, 0.04)",
+          "0 30px 80px rgba(0, 0, 0, 0.5), inset 0 0 0 2px rgba(255, 255, 255, 0.15)",
         padding: bezel,
         boxSizing: "border-box",
         ...style,

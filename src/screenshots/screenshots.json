@@ -1,0 +1,61 @@
+{
+  "en": [
+    {
+      "title": "*Unlimited* workouts to choose from",
+      "subtitle": "Simple by default, customizable if you need it",
+      "screenshot": "screenshots/test-screenshot.jpg",
+      "phone": { "bottom": -300 },
+      "overlays": [
+        { "src": "overlays/arrow.png", "x": 120, "y": 680, "height": 100 },
+        { "src": "overlays/arrow2.png", "x": 520, "y": 1150, "height": 100 },
+        { "src": "overlays/circle.png", "x": 240, "y": 1180, "width": 300 },
+        { "src": "overlays/blocktypes.png", "x": 190, "y": 400, "width": 700 }
+      ]
+    },
+    {
+      "title": "Workout *Activity*",
+      "subtitle": "View workout notes, difficulty, heart rate, power data, and more",
+      "screenshot": "screenshots/screenshot-activity2.png"
+      
+    }
+  ],
+  "de": [
+    {
+      "title": "*Unendlich viele* Workouts\nzur Auswahl",
+      "subtitle": "Standardmäßig einfach, anpassbar wenn nötig",
+      "screenshot": "screenshots/test-screenshot.jpg",
+      "phone": { "bottom": -300 },
+      "overlays": [
+        { "src": "overlays/arrow.png", "x": 120, "y": 680, "height": 100 },
+        { "src": "overlays/arrow2.png", "x": 520, "y": 1150, "height": 100 },
+        { "src": "overlays/circle.png", "x": 240, "y": 1180, "width": 300 },
+        { "src": "overlays/blocktypes.png", "x": 190, "y": 400, "width": 700 }
+      ]
+    },
+    {
+      "title": "Workout-*Aktivität*",
+      "subtitle": "Trainingsnotizen, Schwierigkeit, Herzfrequenz, Leistungsdaten und mehr anzeigen",
+      "screenshot": "screenshots/screenshot-activity2.png"
+    }
+  ],
+  "es": [
+    {
+      "title": "Entrenamientos *ilimitados*\npara elegir",
+      "subtitle": "Simple por defecto, personalizable si lo necesitas",
+      "screenshot": "screenshots/test-screenshot.jpg",
+      "phone": { "bottom": -300 },
+      "overlays": [
+        { "src": "overlays/arrow.png", "x": 120, "y": 680, "height": 100 },
+        { "src": "overlays/arrow2.png", "x": 520, "y": 1150, "height": 100 },
+        { "src": "overlays/circle.png", "x": 240, "y": 1180, "width": 300 },
+        { "src": "overlays/blocktypes.png", "x": 190, "y": 400, "width": 700 }
+      ]
+    },
+    {
+      "title": "*Actividad* de entrenamiento",
+      "subtitle": "Consulta notas, dificultad, frecuencia cardíaca,datos de potencia y más",
+      "screenshot": "screenshots/screenshot-activity2.png",
+      "phone": { "bottom": -50 }
+    }
+  ]
+}

@@ -1,5 +1,6 @@
+import { Fragment } from "react";
 import { AbsoluteFill, Img, staticFile } from "remotion";
-import { PhoneFrame } from "./components/PhoneFrame";
+import { PhoneFrame } from "../components/PhoneFrame";
 
 type Overlay = {
   src: string;
@@ -59,16 +60,16 @@ const phoneStyle = (spec: PhoneSpec): React.CSSProperties => ({
 
 const SINGLE_DEFAULT: PhoneSpec = {
   width: 700,
-  height: 1440,
+  height: 1479,
   left: "50%",
-  bottom: 0,
+  bottom: 50,
   translate: "-50% 0px",
 };
 
 // left phone in duo
 const DUO_BACK_DEFAULT: PhoneSpec = {
   width: 640,
-  height: 1304,
+  height: 1349,
   left: -80,
   bottom: 150,
   rotate: -8,
@@ -78,7 +79,7 @@ const DUO_BACK_DEFAULT: PhoneSpec = {
 // right phone in duo
 const DUO_FRONT_DEFAULT: PhoneSpec = {
   width: 640,
-  height: 1304,
+  height: 1349,
   right: -60,
   bottom: 40,
   rotate: 6,
@@ -112,7 +113,7 @@ export const StoreScreenshot: React.FC<Props> = ({
       <div
         style={{
           marginTop: 50,
-          padding: "0 80px",
+          padding: "0 20px",
           fontSize: 84,
           fontWeight: 800,
           lineHeight: 1.15,
@@ -120,15 +121,20 @@ export const StoreScreenshot: React.FC<Props> = ({
           textAlign: "center",
         }}
       >
-        {title.split("*").map((part, i) =>
-          i % 2 === 1 ? (
-            <span key={i} style={{ color: accentColor }}>
-              {part}
-            </span>
-          ) : (
-            <span key={i}>{part}</span>
-          ),
-        )}
+        {title.split("\n").map((line, li) => (
+          <Fragment key={li}>
+            {li > 0 && <br />}
+            {line.split("*").map((part, i) =>
+              i % 2 === 1 ? (
+                <span key={i} style={{ color: accentColor }}>
+                  {part}
+                </span>
+              ) : (
+                <span key={i}>{part}</span>
+              ),
+            )}
+          </Fragment>
+        ))}
       </div>
 
       {subtitle && (
@@ -143,7 +149,12 @@ export const StoreScreenshot: React.FC<Props> = ({
             textAlign: "center",
           }}
         >
-          {subtitle}
+          {subtitle.split("\n").map((line, li) => (
+            <Fragment key={li}>
+              {li > 0 && <br />}
+              {line}
+            </Fragment>
+          ))}
         </div>
       )}
 
