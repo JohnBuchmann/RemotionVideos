@@ -53,14 +53,14 @@ export const TextCallout: React.FC<Props> = ({
         transformOrigin: "center bottom",
         display: "flex",
         alignItems: "center",
-        gap: 16,
-        padding: "18px 28px",
+        gap: 24,
+        padding: "27px 42px",
         fontFamily: "sans-serif",
-        fontSize: 40,
+        fontSize: 60,
         fontWeight: 600,
         color: "white",
         backgroundColor: "rgba(15, 15, 20, 0.82)",
-        borderRadius: 20,
+        borderRadius: 30,
         boxShadow: "0 12px 40px rgba(0, 0, 0, 0.35)",
         border: "1px solid rgba(255, 255, 255, 0.08)",
         backdropFilter: "blur(8px)",
@@ -69,9 +69,9 @@ export const TextCallout: React.FC<Props> = ({
     >
       <div
         style={{
-          width: 6,
+          width: 9,
           alignSelf: "stretch",
-          borderRadius: 3,
+          borderRadius: 4.5,
           backgroundColor: accentColor,
           flexShrink: 0,
         }}

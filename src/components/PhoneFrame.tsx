@@ -3,6 +3,9 @@ type Props = {
   children: React.ReactNode;
   width?: number;
   height?: number;
+  bezel?: number;
+  outerRadius?: number;
+  innerRadius?: number;
   /** Show the Dynamic Island–style pill at the top of the screen. */
   notch?: boolean;
   style?: React.CSSProperties;
@@ -12,12 +15,12 @@ export const PhoneFrame: React.FC<Props> = ({
   children,
   width = 420,
   height = 860,
+  bezel = 14,
+  outerRadius = Math.round(width * 0.08),
+  innerRadius = Math.max(0, outerRadius - bezel),
   notch = false,
   style,
 }) => {
-  const bezel = 14;
-  const outerRadius = Math.round(width * 0.08);
-  const innerRadius = outerRadius - bezel;
 
   return (
     <div

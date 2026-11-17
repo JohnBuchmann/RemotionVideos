@@ -51,8 +51,34 @@
       }
     ]
   },
-  "es": {
-    "title": "Temporizadores para *todos*",
+  "es-419": {
+    "title": "Timers para *todos*",
+    "sections": [
+      {
+        "heading": "Usuarios *minimalistas* y *avanzados*",
+        "text": "Simple por defecto, personalizable a fondo",
+        "image": "featureGrid/minimalist.png"
+      },
+      {
+        "heading": "Ciclistas de *interior*",
+        "text": "Con bicicleta inteligente o bicicleta estática simple",
+        "image": "featureGrid/cyclists.png",
+        "textShift": -45
+      },
+      {
+        "heading": "Entrenadores de *circuitos*/*EMOM*",
+        "text": "Circuitos y EMOMs con señales visuales de lo que sigue",
+        "image": "featureGrid/circuits.png"
+      },
+      {
+        "heading": "Entrenamientos de *YouTube*",
+        "text": "Entrenamientos de YouTube con bloques de visualización",
+        "image": "featureGrid/youtube.png"
+      }
+    ]
+  },
+  "es-ES": {
+    "title": "Timers para *todos*",
     "sections": [
       {
         "heading": "Usuarios *minimalistas* y *avanzados*",
@@ -73,6 +99,109 @@
       {
         "heading": "Entrenamientos de *YouTube*",
         "text": "Entrenamientos de YouTube con bloques de visualización",
+        "image": "featureGrid/youtube.png"
+      }
+    ]
+  },
+  "fr": {
+    "title": "Minuteurs pour *tous*",
+    "sections": [
+      {
+        "heading": "*Minimalistes* & *utilisateurs avancés*",
+        "text": "Simple, personnalisable au besoin",
+        "image": "featureGrid/minimalist.png"
+      },
+      {
+        "heading": "Cyclistes en *intérieur*",
+        "text": "Avec vélo/home-trainer connecté ou simple vélo d'appartement",
+        "image": "featureGrid/cyclists.png",
+        "textShift": -45
+      },
+      {
+        "heading": "Adeptes de *circuits*/*EMOM*",
+        "text": "Circuits & EMOMs avec repères visuels pour la suite",
+        "image": "featureGrid/circuits.png"
+      },
+      {
+        "heading": "Fans d'entraînements *YouTube*",
+        "text": "Workouts YouTube sélectionnés, visualisés",
+        "image": "featureGrid/youtube.png"
+      }
+    ]
+  },
+  "it": {
+    "title": "Timer per *tutti*",
+    "sections": [
+      {
+        "heading": "*Minimalisti* e *esperti*",
+        "text": "Semplice, personalizzabile a fondo",
+        "image": "featureGrid/minimalist.png"
+      },
+      {
+        "heading": "Ciclisti *indoor*",
+        "text": "Con rullo/bici smart o semplice cyclette",
+        "image": "featureGrid/cyclists.png"
+      },
+      {
+        "heading": "Trainer di *circuiti*/*EMOM*",
+        "text": "Circuiti ed EMOM con segnali visivi per il prossimo passo",
+        "image": "featureGrid/circuits.png"
+      },
+      {
+        "heading": "Fan di allenamenti *YouTube*",
+        "text": "Allenamenti YouTube curati con blocchi di visualizzazione",
+        "image": "featureGrid/youtube.png"
+      }
+    ]
+  },
+  "pt": {
+    "title": "Temporizadores para *todos*",
+    "sections": [
+      {
+        "heading": "*Minimalistas* e *utilizadores avançados*",
+        "text": "Simples, personalizável a fundo",
+        "image": "featureGrid/minimalist.png"
+      },
+      {
+        "heading": "Ciclistas de *interior*",
+        "text": "Com rolo inteligente ou bicicleta estática simples",
+        "image": "featureGrid/cyclists.png",
+        "textShift": -45
+      },
+      {
+        "heading": "Treinos de *circuito*/*EMOM*",
+        "text": "Circuitos e EMOMs com sinais visuais do próximo passo",
+        "image": "featureGrid/circuits.png"
+      },
+      {
+        "heading": "Treinos de *YouTube*",
+        "text": "Treinos do YouTube com blocos de visualização úteis",
+        "image": "featureGrid/youtube.png"
+      }
+    ]
+  },
+  "pt-BR": {
+    "title": "Timers para *todos*",
+    "sections": [
+      {
+        "heading": "*Minimalistas* e usuários *avançados*",
+        "text": "Simples, personalizável a fundo",
+        "image": "featureGrid/minimalist.png"
+      },
+      {
+        "heading": "Ciclistas de *interior*",
+        "text": "Com rolo inteligente ou bicicleta ergométrica simples",
+        "image": "featureGrid/cyclists.png",
+        "textShift": -45
+      },
+      {
+        "heading": "Treinos de *circuito*/*EMOM*",
+        "text": "Circuitos e EMOMs com sinais visuais do próximo passo",
+        "image": "featureGrid/circuits.png"
+      },
+      {
+        "heading": "Treinos de *YouTube*",
+        "text": "Treinos do YouTube com blocos de visualização úteis",
         "image": "featureGrid/youtube.png"
       }
     ]

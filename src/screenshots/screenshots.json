@@ -1,61 +1,832 @@
 {
   "en": [
     {
-      "title": "*Unlimited* workouts to choose from",
+      "title": "For both *minimalist* \n& *power* users",
       "subtitle": "Simple by default, customizable if you need it",
-      "screenshot": "screenshots/test-screenshot.jpg",
-      "phone": { "bottom": -300 },
+      "screenshot": "screenshots/screenshotPoweruser.png",
+      "screenshot2": "screenshots/screenshotMinimalist.png"
+    },
+    {
+      "title": "For indoor *cyclists*",
+      "subtitle": "With or without a smart trainer",
+      "screenshot": "screenshots/screenshotCyclists.png"
+    },
+    {
+      "title": "Supercharged \n*YouTube* workouts",
+      "subtitle": "Stop going in blind with our helpful \ncolored profile blocks",
+      "screenshot": "screenshots/screenshotYouTube.png",
+      "phone": {
+        "bottom": -50
+      },
       "overlays": [
-        { "src": "overlays/arrow.png", "x": 120, "y": 680, "height": 100 },
-        { "src": "overlays/arrow2.png", "x": 520, "y": 1150, "height": 100 },
-        { "src": "overlays/circle.png", "x": 240, "y": 1180, "width": 300 },
-        { "src": "overlays/blocktypes.png", "x": 190, "y": 400, "width": 700 }
+        {
+          "src": "overlays/leftBubble.png",
+          "x": 30,
+          "y": 450,
+          "height": 100
+        },
+        {
+          "src": "overlays/rightBubble.png",
+          "x": 700,
+          "y": 850,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "title": "Powerful \n*Visual* builder",
+      "subtitle": "Full visual control with versatile blocks \n for every workout style",
+      "screenshot": "screenshots/test-screenshot.jpg",
+      "phone": {
+        "bottom": -300
+      },
+      "overlays": [
+        {
+          "src": "overlays/arrow.png",
+          "x": 120,
+          "y": 680,
+          "height": 100
+        },
+        {
+          "src": "overlays/arrow2.png",
+          "x": 520,
+          "y": 1150,
+          "height": 100
+        },
+        {
+          "src": "overlays/circle.png",
+          "x": 240,
+          "y": 1180,
+          "width": 300
+        },
+        {
+          "src": "overlays/blocktypes.png",
+          "x": 190,
+          "y": 400,
+          "width": 700
+        }
+      ]
+    },
+    {
+      "title": "For *circuits* & *EMOMs*",
+      "subtitle": "With visual cues so you know what's next",
+      "screenshot": "screenshots/screenshotCircuits.png",
+      "overlays": [
+        {
+          "src": "overlays/circuitsZoom.png",
+          "x": 700,
+          "y": 600,
+          "height": 100
+        }
       ]
     },
     {
       "title": "Workout *Activity*",
       "subtitle": "View workout notes, difficulty, heart rate, power data, and more",
       "screenshot": "screenshots/screenshot-activity2.png"
-      
+    },
+    {
+      "title": "The power of the \n*profile blocks*",
+      "subtitle": "Instantly recognize intensity and duration by \n color, width, and height",
+      "screenshot": "screenshots/screenshotEditTimer.jpg",
+      "phone": {
+        "bottom": -1000
+      },
+      "overlays": [
+        {
+          "src": "overlays/tutorial.png",
+          "x": 120,
+          "y": 450,
+          "height": 100
+        }
+      ]
     }
   ],
   "de": [
     {
-      "title": "*Unendlich viele* Workouts\nzur Auswahl",
+      "title": "Für *Minimalisten* \n& *Power*-Nutzer",
       "subtitle": "Standardmäßig einfach, anpassbar wenn nötig",
-      "screenshot": "screenshots/test-screenshot.jpg",
-      "phone": { "bottom": -300 },
+      "screenshot": "screenshots/screenshotPoweruser.png",
+      "screenshot2": "screenshots/screenshotMinimalist.png"
+    },
+    {
+      "title": "Für *Indoor*-Radfahrer",
+      "subtitle": "Mit oder ohne Smart-Trainer",
+      "screenshot": "screenshots/screenshotCyclists.png"
+    },
+    {
+      "title": "*YouTube*-Workouts \naufgeladen",
+      "subtitle": "Mit unseren hilfreichen farbigen \nProfilblöcken nicht mehr blind trainieren",
+      "screenshot": "screenshots/screenshotYouTube.png",
+      "phone": {
+        "bottom": -50
+      },
       "overlays": [
-        { "src": "overlays/arrow.png", "x": 120, "y": 680, "height": 100 },
-        { "src": "overlays/arrow2.png", "x": 520, "y": 1150, "height": 100 },
-        { "src": "overlays/circle.png", "x": 240, "y": 1180, "width": 300 },
-        { "src": "overlays/blocktypes.png", "x": 190, "y": 400, "width": 700 }
+        {
+          "src": "overlays/leftBubble.png",
+          "x": 30,
+          "y": 450,
+          "height": 100
+        },
+        {
+          "src": "overlays/rightBubble.png",
+          "x": 700,
+          "y": 850,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "title": "Leistungsstarker \n*visueller* Builder",
+      "subtitle": "Volle visuelle Kontrolle mit vielseitigen \nBlöcken für jeden Workout-Stil",
+      "screenshot": "screenshots/test-screenshot.jpg",
+      "phone": {
+        "bottom": -300
+      },
+      "overlays": [
+        {
+          "src": "overlays/arrow.png",
+          "x": 120,
+          "y": 680,
+          "height": 100
+        },
+        {
+          "src": "overlays/arrow2.png",
+          "x": 520,
+          "y": 1150,
+          "height": 100
+        },
+        {
+          "src": "overlays/circle.png",
+          "x": 240,
+          "y": 1180,
+          "width": 300
+        },
+        {
+          "src": "overlays/blocktypes.png",
+          "x": 190,
+          "y": 400,
+          "width": 700
+        }
+      ]
+    },
+    {
+      "title": "Für *Zirkel* & *EMOMs*",
+      "subtitle": "Mit visuellen Hinweisen, damit du weißt, was kommt",
+      "screenshot": "screenshots/screenshotCircuits.png",
+      "overlays": [
+        {
+          "src": "overlays/circuitsZoom.png",
+          "x": 700,
+          "y": 600,
+          "height": 100
+        }
       ]
     },
     {
       "title": "Workout-*Aktivität*",
       "subtitle": "Trainingsnotizen, Schwierigkeit, Herzfrequenz, Leistungsdaten und mehr anzeigen",
       "screenshot": "screenshots/screenshot-activity2.png"
+    },
+    {
+      "title": "Die Stärke der \n*Profilblöcke*",
+      "subtitle": "Intensität und Dauer sofort an \nFarbe, Breite und Höhe erkennen",
+      "screenshot": "screenshots/screenshotEditTimer.jpg",
+      "phone": {
+        "bottom": -1000
+      },
+      "overlays": [
+        {
+          "src": "overlays/tutorial.png",
+          "x": 120,
+          "y": 450,
+          "height": 100
+        }
+      ]
     }
   ],
-  "es": [
+  "es-419": [
     {
-      "title": "Entrenamientos *ilimitados*\npara elegir",
+      "title": "Para *minimalistas* \ny usuarios *avanzados*",
       "subtitle": "Simple por defecto, personalizable si lo necesitas",
-      "screenshot": "screenshots/test-screenshot.jpg",
-      "phone": { "bottom": -300 },
+      "screenshot": "screenshots/screenshotPoweruser.png",
+      "screenshot2": "screenshots/screenshotMinimalist.png"
+    },
+    {
+      "title": "Para ciclistas de *interior*",
+      "subtitle": "Con o sin bicicleta estática inteligente",
+      "screenshot": "screenshots/screenshotCyclists.png"
+    },
+    {
+      "title": "Entrenamientos de \n*YouTube* potenciados",
+      "subtitle": "No entrenes a ciegas con nuestros \nútiles bloques de perfil en color",
+      "screenshot": "screenshots/screenshotYouTube.png",
+      "phone": {
+        "bottom": -50
+      },
       "overlays": [
-        { "src": "overlays/arrow.png", "x": 120, "y": 680, "height": 100 },
-        { "src": "overlays/arrow2.png", "x": 520, "y": 1150, "height": 100 },
-        { "src": "overlays/circle.png", "x": 240, "y": 1180, "width": 300 },
-        { "src": "overlays/blocktypes.png", "x": 190, "y": 400, "width": 700 }
+        {
+          "src": "overlays/leftBubble.png",
+          "x": 30,
+          "y": 450,
+          "height": 100
+        },
+        {
+          "src": "overlays/rightBubble.png",
+          "x": 700,
+          "y": 850,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "title": "Potente editor \n*visual*",
+      "subtitle": "Control visual total con bloques versátiles \npara cada estilo de entrenamiento",
+      "screenshot": "screenshots/test-screenshot.jpg",
+      "phone": {
+        "bottom": -300
+      },
+      "overlays": [
+        {
+          "src": "overlays/arrow.png",
+          "x": 120,
+          "y": 680,
+          "height": 100
+        },
+        {
+          "src": "overlays/arrow2.png",
+          "x": 520,
+          "y": 1150,
+          "height": 100
+        },
+        {
+          "src": "overlays/circle.png",
+          "x": 240,
+          "y": 1180,
+          "width": 300
+        },
+        {
+          "src": "overlays/blocktypes.png",
+          "x": 190,
+          "y": 400,
+          "width": 700
+        }
+      ]
+    },
+    {
+      "title": "Para *circuitos* y *EMOMs*",
+      "subtitle": "Con señales visuales para saber qué sigue",
+      "screenshot": "screenshots/screenshotCircuits.png",
+      "overlays": [
+        {
+          "src": "overlays/circuitsZoom.png",
+          "x": 700,
+          "y": 600,
+          "height": 100
+        }
       ]
     },
     {
       "title": "*Actividad* de entrenamiento",
-      "subtitle": "Consulta notas, dificultad, frecuencia cardíaca,datos de potencia y más",
+      "subtitle": "Consulta notas, dificultad, frecuencia cardíaca, datos de potencia y más",
       "screenshot": "screenshots/screenshot-activity2.png",
-      "phone": { "bottom": -50 }
+      "phone": {
+        "bottom": -50
+      }
+    },
+    {
+      "title": "El poder de los \nbloques de *perfil*",
+      "subtitle": "Reconoce al instante la intensidad y duración \npor color, ancho y alto",
+      "screenshot": "screenshots/screenshotEditTimer.jpg",
+      "phone": {
+        "bottom": -1000
+      },
+      "overlays": [
+        {
+          "src": "overlays/tutorial.png",
+          "x": 120,
+          "y": 450,
+          "height": 100
+        }
+      ]
+    }
+  ],
+  "es-ES": [
+    {
+      "title": "Para *minimalistas* \ny usuarios *avanzados*",
+      "subtitle": "Simple por defecto, personalizable si lo necesitas",
+      "screenshot": "screenshots/screenshotPoweruser.png",
+      "screenshot2": "screenshots/screenshotMinimalist.png"
+    },
+    {
+      "title": "Para ciclistas de *interior*",
+      "subtitle": "Con o sin rodillo inteligente",
+      "screenshot": "screenshots/screenshotCyclists.png"
+    },
+    {
+      "title": "Entrenamientos de \n*YouTube* potenciados",
+      "subtitle": "No entrenes a ciegas con nuestros \nútiles bloques de perfil en color",
+      "screenshot": "screenshots/screenshotYouTube.png",
+      "phone": {
+        "bottom": -50
+      },
+      "overlays": [
+        {
+          "src": "overlays/leftBubble.png",
+          "x": 30,
+          "y": 450,
+          "height": 100
+        },
+        {
+          "src": "overlays/rightBubble.png",
+          "x": 700,
+          "y": 850,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "title": "Potente editor \n*visual*",
+      "subtitle": "Control visual total con bloques versátiles \npara cada estilo de entrenamiento",
+      "screenshot": "screenshots/test-screenshot.jpg",
+      "phone": {
+        "bottom": -300
+      },
+      "overlays": [
+        {
+          "src": "overlays/arrow.png",
+          "x": 120,
+          "y": 680,
+          "height": 100
+        },
+        {
+          "src": "overlays/arrow2.png",
+          "x": 520,
+          "y": 1150,
+          "height": 100
+        },
+        {
+          "src": "overlays/circle.png",
+          "x": 240,
+          "y": 1180,
+          "width": 300
+        },
+        {
+          "src": "overlays/blocktypes.png",
+          "x": 190,
+          "y": 400,
+          "width": 700
+        }
+      ]
+    },
+    {
+      "title": "Para *circuitos* y *EMOMs*",
+      "subtitle": "Con señales visuales para saber qué sigue",
+      "screenshot": "screenshots/screenshotCircuits.png",
+      "overlays": [
+        {
+          "src": "overlays/circuitsZoom.png",
+          "x": 700,
+          "y": 600,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "title": "*Actividad* de entrenamiento",
+      "subtitle": "Consulta notas, dificultad, frecuencia cardíaca, datos de potencia y más",
+      "screenshot": "screenshots/screenshot-activity2.png",
+      "phone": {
+        "bottom": -50
+      }
+    },
+    {
+      "title": "El poder de los \nbloques de *perfil*",
+      "subtitle": "Reconoce al instante la intensidad y duración \npor color, ancho y alto",
+      "screenshot": "screenshots/screenshotEditTimer.jpg",
+      "phone": {
+        "bottom": -1000
+      },
+      "overlays": [
+        {
+          "src": "overlays/tutorial.png",
+          "x": 120,
+          "y": 450,
+          "height": 100
+        }
+      ]
+    }
+  ],
+  "fr": [
+    {
+      "title": "Pour *minimalistes* \n& *utilisateurs avancés*",
+      "subtitle": "Simple par défaut, personnalisable si besoin",
+      "screenshot": "screenshots/screenshotPoweruser.png",
+      "screenshot2": "screenshots/screenshotMinimalist.png"
+    },
+    {
+      "title": "Pour cyclistes en \n*intérieur*",
+      "subtitle": "Avec ou sans home-trainer connecté",
+      "screenshot": "screenshots/screenshotCyclists.png"
+    },
+    {
+      "title": "Entraînements \n*YouTube* boostés",
+      "subtitle": "Ne vous entraînez plus à l'aveugle grâce \nà nos blocs de profil colorés",
+      "screenshot": "screenshots/screenshotYouTube.png",
+      "phone": {
+        "bottom": -50
+      },
+      "overlays": [
+        {
+          "src": "overlays/leftBubble.png",
+          "x": 30,
+          "y": 450,
+          "height": 100
+        },
+        {
+          "src": "overlays/rightBubble.png",
+          "x": 700,
+          "y": 850,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "title": "Puissant éditeur \n*visuel*",
+      "subtitle": "Contrôle visuel total avec des blocs \nversatiles pour chaque style",
+      "screenshot": "screenshots/test-screenshot.jpg",
+      "phone": {
+        "bottom": -300
+      },
+      "overlays": [
+        {
+          "src": "overlays/arrow.png",
+          "x": 120,
+          "y": 680,
+          "height": 100
+        },
+        {
+          "src": "overlays/arrow2.png",
+          "x": 520,
+          "y": 1150,
+          "height": 100
+        },
+        {
+          "src": "overlays/circle.png",
+          "x": 240,
+          "y": 1180,
+          "width": 300
+        },
+        {
+          "src": "overlays/blocktypes.png",
+          "x": 190,
+          "y": 400,
+          "width": 700
+        }
+      ]
+    },
+    {
+      "title": "Pour les *circuits* \n& les *EMOMs*",
+      "subtitle": "Avec des repères visuels pour savoir ce qui suit",
+      "screenshot": "screenshots/screenshotCircuits.png",
+      "overlays": [
+        {
+          "src": "overlays/circuitsZoom.png",
+          "x": 700,
+          "y": 600,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "title": "*Activité* d'entraînement",
+      "subtitle": "Consultez notes, difficulté, fréquence cardiaque, données de puissance et plus",
+      "screenshot": "screenshots/screenshot-activity2.png"
+    },
+    {
+      "title": "La puissance des \n*blocs de profil*",
+      "subtitle": "Reconnaissez instantanément intensité et durée \npar la couleur, la largeur et la hauteur",
+      "screenshot": "screenshots/screenshotEditTimer.jpg",
+      "phone": {
+        "bottom": -1000
+      },
+      "overlays": [
+        {
+          "src": "overlays/tutorial.png",
+          "x": 120,
+          "y": 450,
+          "height": 100
+        }
+      ]
+    }
+  ],
+  "it": [
+    {
+      "title": "Per *minimalisti* \n& *esperti*",
+      "subtitle": "Semplice di default, personalizzabile se serve",
+      "screenshot": "screenshots/screenshotPoweruser.png",
+      "screenshot2": "screenshots/screenshotMinimalist.png"
+    },
+    {
+      "title": "Per ciclisti \n*indoor*",
+      "subtitle": "Con o senza rullo smart",
+      "screenshot": "screenshots/screenshotCyclists.png"
+    },
+    {
+      "title": "Allenamenti \n*YouTube* potenziati",
+      "subtitle": "Non allenarti più alla cieca con i nostri \nblocchi profilo colorati",
+      "screenshot": "screenshots/screenshotYouTube.png",
+      "phone": {
+        "bottom": -50
+      },
+      "overlays": [
+        {
+          "src": "overlays/leftBubble.png",
+          "x": 30,
+          "y": 450,
+          "height": 100
+        },
+        {
+          "src": "overlays/rightBubble.png",
+          "x": 700,
+          "y": 850,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "title": "Potente editor \n*visuale*",
+      "subtitle": "Controllo visivo totale con blocchi versatili \nper ogni stile di allenamento",
+      "screenshot": "screenshots/test-screenshot.jpg",
+      "phone": {
+        "bottom": -300
+      },
+      "overlays": [
+        {
+          "src": "overlays/arrow.png",
+          "x": 120,
+          "y": 680,
+          "height": 100
+        },
+        {
+          "src": "overlays/arrow2.png",
+          "x": 520,
+          "y": 1150,
+          "height": 100
+        },
+        {
+          "src": "overlays/circle.png",
+          "x": 240,
+          "y": 1180,
+          "width": 300
+        },
+        {
+          "src": "overlays/blocktypes.png",
+          "x": 190,
+          "y": 400,
+          "width": 700
+        }
+      ]
+    },
+    {
+      "title": "Per *circuiti* \n& *EMOM*",
+      "subtitle": "Con segnali visivi per sapere cosa viene dopo",
+      "screenshot": "screenshots/screenshotCircuits.png",
+      "overlays": [
+        {
+          "src": "overlays/circuitsZoom.png",
+          "x": 700,
+          "y": 600,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "title": "*Attività* di allenamento",
+      "subtitle": "Visualizza note, difficoltà, frequenza cardiaca, dati di potenza e altro",
+      "screenshot": "screenshots/screenshot-activity2.png"
+    },
+    {
+      "title": "Il potere dei \n*blocchi di profilo*",
+      "subtitle": "Riconosci all'istante intensità e durata \nda colore, larghezza e altezza",
+      "screenshot": "screenshots/screenshotEditTimer.jpg",
+      "phone": {
+        "bottom": -1000
+      },
+      "overlays": [
+        {
+          "src": "overlays/tutorial.png",
+          "x": 120,
+          "y": 450,
+          "height": 100
+        }
+      ]
+    }
+  ],
+  "pt": [
+    {
+      "title": "Para *minimalistas* \n& *utilizadores avançados*",
+      "subtitle": "Simples por predefinição, personalizável se precisares",
+      "screenshot": "screenshots/screenshotPoweruser.png",
+      "screenshot2": "screenshots/screenshotMinimalist.png"
+    },
+    {
+      "title": "Para ciclistas de \n*interior*",
+      "subtitle": "Com ou sem rolo inteligente",
+      "screenshot": "screenshots/screenshotCyclists.png"
+    },
+    {
+      "title": "Treinos de \n*YouTube* turbinados",
+      "subtitle": "Deixa de treinar às cegas com os nossos \nblocos de perfil coloridos",
+      "screenshot": "screenshots/screenshotYouTube.png",
+      "phone": {
+        "bottom": -50
+      },
+      "overlays": [
+        {
+          "src": "overlays/leftBubble.png",
+          "x": 30,
+          "y": 450,
+          "height": 100
+        },
+        {
+          "src": "overlays/rightBubble.png",
+          "x": 700,
+          "y": 850,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "title": "Poderoso editor \n*visual*",
+      "subtitle": "Controlo visual total com blocos versáteis \npara cada estilo de treino",
+      "screenshot": "screenshots/test-screenshot.jpg",
+      "phone": {
+        "bottom": -300
+      },
+      "overlays": [
+        {
+          "src": "overlays/arrow.png",
+          "x": 120,
+          "y": 680,
+          "height": 100
+        },
+        {
+          "src": "overlays/arrow2.png",
+          "x": 520,
+          "y": 1150,
+          "height": 100
+        },
+        {
+          "src": "overlays/circle.png",
+          "x": 240,
+          "y": 1180,
+          "width": 300
+        },
+        {
+          "src": "overlays/blocktypes.png",
+          "x": 190,
+          "y": 400,
+          "width": 700
+        }
+      ]
+    },
+    {
+      "title": "Para *circuitos* \n& *EMOMs*",
+      "subtitle": "Com sinais visuais para saberes o que vem a seguir",
+      "screenshot": "screenshots/screenshotCircuits.png",
+      "overlays": [
+        {
+          "src": "overlays/circuitsZoom.png",
+          "x": 700,
+          "y": 600,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "title": "*Atividade* de treino",
+      "subtitle": "Vê notas, dificuldade, frequência cardíaca, dados de potência e mais",
+      "screenshot": "screenshots/screenshot-activity2.png"
+    },
+    {
+      "title": "O poder dos \n*blocos de perfil*",
+      "subtitle": "Reconhece instantaneamente intensidade e duração \npor cor, largura e altura",
+      "screenshot": "screenshots/screenshotEditTimer.jpg",
+      "phone": {
+        "bottom": -1000
+      },
+      "overlays": [
+        {
+          "src": "overlays/tutorial.png",
+          "x": 120,
+          "y": 450,
+          "height": 100
+        }
+      ]
+    }
+  ],
+  "pt-BR": [
+    {
+      "title": "Para *minimalistas* \n& usuários *avançados*",
+      "subtitle": "Simples por padrão, personalizável se precisar",
+      "screenshot": "screenshots/screenshotPoweruser.png",
+      "screenshot2": "screenshots/screenshotMinimalist.png"
+    },
+    {
+      "title": "Para ciclistas de \n*interior*",
+      "subtitle": "Com ou sem rolo de treino inteligente",
+      "screenshot": "screenshots/screenshotCyclists.png"
+    },
+    {
+      "title": "Treinos de \n*YouTube* turbinados",
+      "subtitle": "Não treine mais às cegas com nossos \nblocos de perfil coloridos",
+      "screenshot": "screenshots/screenshotYouTube.png",
+      "phone": {
+        "bottom": -50
+      },
+      "overlays": [
+        {
+          "src": "overlays/leftBubble.png",
+          "x": 30,
+          "y": 450,
+          "height": 100
+        },
+        {
+          "src": "overlays/rightBubble.png",
+          "x": 700,
+          "y": 850,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "title": "Poderoso editor \n*visual*",
+      "subtitle": "Controle visual total com blocos versáteis \npara cada estilo de treino",
+      "screenshot": "screenshots/test-screenshot.jpg",
+      "phone": {
+        "bottom": -300
+      },
+      "overlays": [
+        {
+          "src": "overlays/arrow.png",
+          "x": 120,
+          "y": 680,
+          "height": 100
+        },
+        {
+          "src": "overlays/arrow2.png",
+          "x": 520,
+          "y": 1150,
+          "height": 100
+        },
+        {
+          "src": "overlays/circle.png",
+          "x": 240,
+          "y": 1180,
+          "width": 300
+        },
+        {
+          "src": "overlays/blocktypes.png",
+          "x": 190,
+          "y": 400,
+          "width": 700
+        }
+      ]
+    },
+    {
+      "title": "Para *circuitos* \n& *EMOMs*",
+      "subtitle": "Com sinais visuais para saber o que vem a seguir",
+      "screenshot": "screenshots/screenshotCircuits.png",
+      "overlays": [
+        {
+          "src": "overlays/circuitsZoom.png",
+          "x": 700,
+          "y": 600,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "title": "*Atividade* de treino",
+      "subtitle": "Veja notas, dificuldade, frequência cardíaca, dados de potência e mais",
+      "screenshot": "screenshots/screenshot-activity2.png"
+    },
+    {
+      "title": "O poder dos \n*blocos de perfil*",
+      "subtitle": "Reconheça instantaneamente intensidade e duração \npor cor, largura e altura",
+      "screenshot": "screenshots/screenshotEditTimer.jpg",
+      "phone": {
+        "bottom": -1000
+      },
+      "overlays": [
+        {
+          "src": "overlays/tutorial.png",
+          "x": 120,
+          "y": 450,
+          "height": 100
+        }
+      ]
     }
   ]
 }

@@ -1,30 +1,39 @@
 import { Composition, Still } from "remotion";
-import { TestComposition } from "./compositions/TestComposition/TestComposition";
-import { TestComposition2 } from "./compositions/TestComposition2/TestComposition2";
+import {
+  PlayStoreVideoComposition,
+  BEATS,
+  TRANSITION_FRAMES,
+  CTA_SECONDS,
+} from "./compositions/PlayStoreVideoComposition/PlayStoreVideoComposition";
+import {
+  VIDEO_COPY,
+  VideoLocale,
+} from "./compositions/PlayStoreVideoComposition/videoCopy";
 import { StoreScreenshot } from "./screenshots/StoreScreenshot";
 import { FeatureGridScreenshot } from "./screenshots/FeatureGridScreenshot";
 import { Locale, SCREENSHOTS } from "./screenshots/screenshots";
 import { FEATURE_GRID, Locale as GridLocale } from "./screenshots/featureGrid";
 
 export const RemotionRoot: React.FC = () => {
+  const duration = Math.round(
+    BEATS.reduce((sum, b) => sum + b.seconds * 30, 0) +
+      CTA_SECONDS * 30 -
+      TRANSITION_FRAMES * BEATS.length,
+  );
   return (
     <>
-      <Composition
-        id="TestVideo"
-        component={TestComposition}
-        durationInFrames={780}
-        fps={30}
-        width={1280}
-        height={720}
-      />
-      <Composition
-        id="TestVideo2"
-        component={TestComposition2}
-        durationInFrames={60}
-        fps={30}
-        width={700}
-        height={700}
-      />
+      {(Object.keys(VIDEO_COPY) as VideoLocale[]).map((locale) => (
+        <Composition
+          key={locale}
+          id={`PlayStoreVideo-${locale}`}
+          component={PlayStoreVideoComposition}
+          defaultProps={{ locale }}
+          durationInFrames={duration}
+          fps={30}
+          width={1920}
+          height={1080}
+        />
+      ))}
       {(Object.keys(SCREENSHOTS) as Locale[]).map((locale) =>
         SCREENSHOTS[locale].map((shot, i) => (
           <Still

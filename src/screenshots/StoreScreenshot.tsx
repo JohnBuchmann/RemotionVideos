@@ -62,7 +62,7 @@ const SINGLE_DEFAULT: PhoneSpec = {
   width: 700,
   height: 1479,
   left: "50%",
-  bottom: 50,
+  bottom: 100,
   translate: "-50% 0px",
 };
 
@@ -70,9 +70,9 @@ const SINGLE_DEFAULT: PhoneSpec = {
 const DUO_BACK_DEFAULT: PhoneSpec = {
   width: 640,
   height: 1349,
-  left: -80,
+  left: -30,
   bottom: 150,
-  rotate: -8,
+  rotate: -5,
   zIndex: 1,
 };
 
@@ -80,9 +80,9 @@ const DUO_BACK_DEFAULT: PhoneSpec = {
 const DUO_FRONT_DEFAULT: PhoneSpec = {
   width: 640,
   height: 1349,
-  right: -60,
+  right: -30,
   bottom: 40,
-  rotate: 6,
+  rotate: 5,
   zIndex: 2,
 };
 

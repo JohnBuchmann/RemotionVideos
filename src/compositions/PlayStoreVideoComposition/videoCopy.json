@@ -1,0 +1,82 @@
+{
+  "en": {
+    "callouts": {
+      "overview": { "text": "Your workout.\nAt a glance.", "subtext": "HIIT, Tabata, Circuits, EMOM, and more." },
+      "youtube": { "text": "YouTube workouts.", "subtext": "Workout profile means no guessing what's coming." },
+      "editor": { "text": "Powerful workout editor", "subtext": "Build your workout visually,\none block at a time." },
+      "library": { "text": "Large library of timers" },
+      "libraryYoutube": { "text": "Also YouTube videos", "subtext": "With visual profiles so you\nknow what’s coming." }
+    },
+    "cta": { "text": "Build. Follow. Train.", "subtext": "Get started for free.", "stores": "App Store & Google Play" }
+  },
+  "de": {
+    "callouts": {
+      "overview": { "text": "Dein Workout.\nAuf einen Blick.", "subtext": "HIIT, Tabata, Zirkeltraining, EMOM und mehr." },
+      "youtube": { "text": "YouTube-Workouts.", "subtext": "Das Trainingsprofil zeigt dir,\nwas als Nächstes kommt." },
+      "editor": { "text": "Leistungsstarker\nWorkout-Editor", "subtext": "Gestalte dein Workout visuell,\nBlock für Block." },
+      "library": { "text": "Große Timer-Auswahl" },
+      "libraryYoutube": { "text": "Auch YouTube-Workouts!", "subtext": "Mit visuellen Profilen siehst du,\nwas als Nächstes kommt." }
+    },
+    "cta": { "text": "Gestalten. Mitmachen. Trainieren.", "subtext": "Starte kostenlos.", "stores": "App Store & Google Play" }
+  },
+  "es-419": {
+    "callouts": {
+      "overview": { "text": "Tu entrenamiento.\nDe un vistazo.", "subtext": "HIIT, Tabata, circuitos, EMOM y más." },
+      "youtube": { "text": "Entrenamientos de YouTube.", "subtext": "El perfil te muestra qué sigue,\nsin adivinar." },
+      "editor": { "text": "Potente editor\nde entrenamientos", "subtext": "Crea tu entrenamiento visualmente,\nbloque a bloque." },
+      "library": { "text": "Gran biblioteca de timers" },
+      "libraryYoutube": { "text": "¡También rutinas de YouTube!", "subtext": "Con perfiles visuales para\nsaber qué sigue." }
+    },
+    "cta": { "text": "Crea. Sigue. Entrena.", "subtext": "Empieza gratis.", "stores": "App Store y Google Play" }
+  },
+  "es-ES": {
+    "callouts": {
+      "overview": { "text": "Tu entrenamiento.\nDe un vistazo.", "subtext": "HIIT, Tabata, circuitos, EMOM y más." },
+      "youtube": { "text": "Entrenamientos de YouTube.", "subtext": "El perfil te muestra lo que viene,\nsin adivinar." },
+      "editor": { "text": "Potente editor\nde entrenamientos", "subtext": "Crea tu entrenamiento visualmente,\nbloque a bloque." },
+      "library": { "text": "Gran biblioteca de timers" },
+      "libraryYoutube": { "text": "¡También rutinas de YouTube!", "subtext": "Con perfiles visuales para\nsaber qué viene después." }
+    },
+    "cta": { "text": "Crea. Sigue. Entrena.", "subtext": "Empieza gratis.", "stores": "App Store y Google Play" }
+  },
+  "fr": {
+    "callouts": {
+      "overview": { "text": "Votre entraînement.\nEn un coup d’œil.", "subtext": "HIIT, Tabata, circuits, EMOM et plus encore." },
+      "youtube": { "text": "Entraînements YouTube.", "subtext": "Le profil vous montre la suite,\nsans rien deviner." },
+      "editor": { "text": "Un puissant éditeur\nd’entraînements", "subtext": "Composez votre entraînement,\nbloc par bloc." },
+      "library": { "text": "Un large choix de minuteurs" },
+      "libraryYoutube": { "text": "Et des séances YouTube !", "subtext": "Des profils visuels pour\nanticiper la suite." }
+    },
+    "cta": { "text": "Créez. Suivez. Entraînez-vous.", "subtext": "Commencez gratuitement.", "stores": "App Store et Google Play" }
+  },
+  "it": {
+    "callouts": {
+      "overview": { "text": "Il tuo allenamento.\nA colpo d’occhio.", "subtext": "HIIT, Tabata, circuiti, EMOM e altro." },
+      "youtube": { "text": "Allenamenti YouTube.", "subtext": "Il profilo ti mostra cosa viene dopo,\nsenza tirare a indovinare." },
+      "editor": { "text": "Potente editor\ndi allenamenti", "subtext": "Componi il tuo allenamento,\nun blocco alla volta." },
+      "library": { "text": "Un’ampia raccolta di timer" },
+      "libraryYoutube": { "text": "Anche allenamenti YouTube!", "subtext": "Con profili visivi per sapere\ncosa viene dopo." }
+    },
+    "cta": { "text": "Crea. Segui. Allenati.", "subtext": "Inizia gratis.", "stores": "App Store e Google Play" }
+  },
+  "pt": {
+    "callouts": {
+      "overview": { "text": "O teu treino.\nNum relance.", "subtext": "HIIT, Tabata, circuitos, EMOM e muito mais." },
+      "youtube": { "text": "Treinos do YouTube.", "subtext": "O perfil mostra o que vem a seguir,\nsem adivinhar." },
+      "editor": { "text": "Editor de treinos\navançado", "subtext": "Cria o teu treino visualmente,\nbloco a bloco." },
+      "library": { "text": "Uma vasta biblioteca de timers" },
+      "libraryYoutube": { "text": "Também treinos do YouTube!", "subtext": "Com perfis visuais para saberes\no que vem a seguir." }
+    },
+    "cta": { "text": "Cria. Acompanha. Treina.", "subtext": "Começa grátis.", "stores": "App Store e Google Play" }
+  },
+  "pt-BR": {
+    "callouts": {
+      "overview": { "text": "Seu treino.\nNum relance.", "subtext": "HIIT, Tabata, circuitos, EMOM e muito mais." },
+      "youtube": { "text": "Treinos do YouTube.", "subtext": "O perfil mostra o que vem a seguir,\nsem adivinhar." },
+      "editor": { "text": "Editor de treinos\navançado", "subtext": "Monte seu treino visualmente,\num bloco de cada vez." },
+      "library": { "text": "Uma grande biblioteca de timers" },
+      "libraryYoutube": { "text": "Também treinos do YouTube!", "subtext": "Com perfis visuais para saber\no que vem a seguir." }
+    },
+    "cta": { "text": "Crie. Acompanhe. Treine.", "subtext": "Comece grátis.", "stores": "App Store e Google Play" }
+  }
+}
